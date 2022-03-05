@@ -7,6 +7,8 @@
 
 body {
     background-color: #f4f4f4;
+     background-image: url('download.png'); background-position: center;background-repeat: no-repeat; background-size: cover !important;
+    background-color: black !important;
 }
 
 .navbar {
