@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Righteous&display=swap');
+
+*{
+    font-family: 'Righteous', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url('download.png'); background-position: center;background-repeat: no-repeat; background-size: contain;
+
+}
+
+
+/* Home Page Section 1 */
+.new {
+    
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*display: inline-block;*/
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+span {
+    animation: animate 1s linear forwards;
+    opacity: 0;
+    display: inline-block;
+}
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+
+video {
+    /* object-fit: cover; */
+    max-width: 100%;
+    /* Force Correct Aspect Ratio */
+    height: auto !important;
+}
+
+span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px;
+    color: whitesmoke;
+}
+
+span:nth-child(1) {
+    animation-delay: 1.4s;
+}
+
+span:nth-child(2) {
+    animation-delay: 1.6s;
+}
+
+span:nth-child(3) {
+    animation-delay: 2s;
+}
+
+span:nth-child(4) {
+    animation-delay: 2.5s;
+}
+
+span:nth-child(5) {
+    animation-delay: 3s;
+}
+
+span:nth-child(6) {
+    animation-delay: 3.4s;
+}
+
+span:nth-child(7) {
+    animation-delay: 3.6s;
+}
+
+span:nth-child(8) {
+    animation-delay: 3.7s;
+}
+
+/* Home Page Section 1 */
+
+
+/* NavBar CSS */
+
+.bg{
+    background: black;
+    padding: 20px;
+}
+
+.nav-item{
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    color: cornflowerblue !important;
+}
+/* NavBar CSS */
+
+
+/* Part 1 */
+.part1{
+    background-color:  black;
+    height: 90vh;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    background-image: url('download.png'); background-position: center;background-repeat: no-repeat; background-size: cover;
+}
+
+.textbox{
+    color: white;
+    text-align: center;
+}
+
+.textbox h1{
+    font-size: 5vw;
+    margin-bottom: 20px;
+}
+
+.getbtn{
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 8px;
+    border: 0px;
+    width: 51%;
+    margin-top: 20px;
+}
+/* Part 1 */
+
+
+
+.part8{
+    min-height: 100vh;
+    /* background-color: wheat; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-color: black;
+    background-image: url('download.png'); background-position: center;background-repeat: no-repeat; background-size: contain;
+
+    color: whitesmoke;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80%;
+    width: 100%;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.sec1 input, textarea{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.sec2{
+    width: 40%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.part8 img{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    height: 170px;
+    filter: brightness(10);
+}
+
+.mytext{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 15%;
+    bottom: 0%;
+    z-index: 2;
+}
+
+.social{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 15%;
+    bottom: 0px;
+}
+
+.mediaLinks a{
+    font-size: 40px;
+    margin: 3px;
+} 
+
+
+
+/* --------------------- */
+.row1{
+    margin-top: 8%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    background-color: black;
+  }
+  .column1 {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  .left1 {
+    width: 45%;
+  }
+  .left1{
+    color: white;
+    font-size: 24px;;
+    text-align: left;
+  }
+  
+  .right1 {
+    width: 55%;
+  }
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button {
+    background-color: rgb(124, 63, 182);
+    border: none;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button:hover{
+      color: bisque;
+  }
+
+  .column1 img{
+    width: 90%;
+  }
+  .-fx-image-gal {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 960px;
+      justify-content: center;
+  }
+  .-fx-gal-item {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+  }
+  
+  .-fx-gal-item a {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+  }
+  
+  .-fx-gal-image-thumb img {
+      width: 100%;
+      cursor: pointer;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      filter: grayscale(100%);
+      transform: scale(1.1);
+      transition: all 0.5s ease;
+  }
+  
+  .-fx-gal-image-thumb:hover img {
+      cursor: pointer;
+      -webkit-filter: grayscale(0%);
+      -moz-filter: grayscale(0%);
+      filter: grayscale(0%);
+      transform: scale(1.5);
+      transition: all 0.5s ease;
+  }
+  @media (min-width: 420px) {
+      .-fx-image-gal {
+          flex-direction: row;
+          flex-wrap: wrap;
+      }
+      .-fx-gal-item {
+          width: 50%;
+      }
+  }
+  @media (min-width: 768px) {
+      .-fx-gal-item {
+          width: 33.33%;
+      }
+  }
+  .text{
+    margin-top: 5%;
+  }
+  .text h1{
+    font-size: 45px;
+    color:  rgb(124, 63, 182);
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+  }
+  :root {
+    --surface-color: #fff;
+    --curve: 40;
+  }
+  .textt h1{
+    font-size: 45px;
+    color:  rgb(124, 63, 182);
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+/* --------------------- */
