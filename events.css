@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Righteous&display=swap');
 * {
     padding: 0%;
     margin: 0%;
@@ -7,38 +8,29 @@
 
 body {
     background-color: #f4f4f4;
-     background-image: url('download.png'); background-position: center;background-repeat: no-repeat; background-size: cover !important;
-    background-color: black !important;
 }
 
-.navbar {
-    height: 50px;
-    background-color: rgb(167, 167, 167);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+
+*{
+    font-family: 'Righteous', cursive;
 }
 
-.nav-items {
-    width: 40%;
-    position: relative;
+  /* NavBar CSS */
+
+.bg{
+  background: black;
+  padding: 20px;
 }
 
-.nav-items ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 20px;
-    font-weight: bold;
+.nav-item{
+  font-size: 26px;
+  margin-right: 20px;
 }
 
-.nav-items ul a {
-    text-decoration: none;
-    color: black;
+.nav-link:hover{
+  color: cornflowerblue !important;
 }
+/* NavBar CSS */
 
 .logo i {
     font-size: 40px;
