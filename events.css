@@ -1,36 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Righteous&display=swap');
-* {
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Baloo Bhai 2', cursive;
-}
-
-body {
-    background-color: #f4f4f4;
-}
-
 
 *{
     font-family: 'Righteous', cursive;
 }
-
   /* NavBar CSS */
 
-.bg{
-  background: black;
-  padding: 20px;
+  .bg{
+    background: black;
+    padding: 20px;
+  }
+  
+  .nav-item{
+    font-size: 26px;
+    margin-right: 20px;
+  }
+  
+  .nav-link:hover{
+    color: cornflowerblue !important;
+  }
+
+  /* NavBar CSS */
+body {
+    background-image: url('download.png'); background-position: center;background-repeat: repeat; background-size: contain !important;
+    background-color: black !important;
 }
 
-.nav-item{
-  font-size: 26px;
-  margin-right: 20px;
-}
 
-.nav-link:hover{
-  color: cornflowerblue !important;
-}
-/* NavBar CSS */
 
 .logo i {
     font-size: 40px;
@@ -96,21 +91,25 @@ body {
 }
 
 .quiz-section {
-    width: 67%;
+    width: 71%;
     /* height: 40vw; */
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-image: url('download.png'); background-position: center;background-repeat: repeat; background-size: contain !important;
+    background-color: black !important;
 }
 
 .side-section {
     width: 29%;
     height: fit-content;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-image: url('download.png'); background-position: center;background-repeat: repeat; background-size: contain !important;
+    background-color: black !important;
     padding-bottom: 30px;
 }
 
@@ -119,6 +118,7 @@ body {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 1px;
     max-width: 370px;
     text-align: center;
     font-family: arial;
@@ -179,6 +179,7 @@ body {
 }
 
 .section1 {
+    padding: 8px;
     width: 90%;
     border: 2px solid grey;
     margin: auto;
@@ -186,10 +187,17 @@ body {
     box-shadow: 0px 0px 7px grey;
 }
 
+.section1 hr{
+    margin: 0;
+}
+
+.quiz-categories hr{
+    margin: 0;
+}
 .section1 a {
-    text-decoration: none;
+    text-decoration: none !important;
     text-align: center;
-    color: #000;
+    color: #000 !important;
 }
 
 .section1 a :hover {
@@ -215,7 +223,7 @@ body {
     /* border-left: 1px solid grey; */
     border-right: 1px solid grey;
     padding: 0px 10px;
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
     font-weight: 500;
 }
@@ -325,34 +333,8 @@ body {
 }
 
 
-/* burger box */
-
-.navbar {
-    position: relative;
+/* +++++++++++++++++ */
+.quizbut{
+    margin: 3px;
 }
-
-.burger-box {
-    width: 100%;
-    /* height: 40vh; */
-    height: 0px;
-    transition: height 0.5s;
-    overflow: hidden;
-    background-color: rgb(232 232 232);
-    position: absolute;
-    top: 70px;
-    left: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-.burger-box a {
-    text-decoration: none;
-    list-style: none;
-    color: #000;
-    font-weight: bolder;
-    text-align: center;
-}
-
-
-/* burger box */
+/* +++++++++++++++++ */
